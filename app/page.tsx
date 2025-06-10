@@ -44,7 +44,6 @@ export default function BoxScannerApp() {
       const mockResults: ScanResult[] = [
         { type: "Caixas HB 623", count: 4 },
         { type: "Caixas HB 618", count: 2 },
-        { type: "Caixas HB 701", count: 1 },
       ]
       setResults(mockResults)
       setIsScanning(false)
